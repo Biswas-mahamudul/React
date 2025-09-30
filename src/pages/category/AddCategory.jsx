@@ -43,7 +43,7 @@ const AddCategory = () => {
                     <div className="form-group">
                       <label htmlFor="exampleInputEmail1">Menu Name</label>
                       <input
-                        type="email"
+                        type="text"
                         className="form-control"
                         id="exampleInputEmail1"
                         placeholder="Enter Category"

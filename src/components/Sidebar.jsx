@@ -7,12 +7,12 @@ const Sidebar = () => {
           {/* Brand Logo */}
           <a href="../../index.html" className="brand-link">
             <img
-              src="assets-admin/dist/img/intefadah.jpg"
+              src="assets-admin/dist/img/avatar5.png"
               alt="AdminLTE Logo"
               className="brand-image img-circle elevation-3"
               style={{ opacity: ".8" }}
             />
-            <span className="brand-text font-weight-light">Administration</span>
+            <span className="brand-text font-weight-light">Sifat Hasan</span>
           </a>
           {/* Sidebar */}
           <div className="sidebar">
@@ -20,14 +20,14 @@ const Sidebar = () => {
             <div className="user-panel mt-3 pb-3 mb-3 d-flex">
               <div className="image">
                 <img
-                  src="assets-admin/dist/img/"
+                  src="assets-admin/dist/img/intefadah.jpg"
                   className="img-circle elevation-2"
                   alt="User Image"
                 />
               </div>
               <div className="info">
                 <a href="#" className="d-block">
-                 Sifat
+                 Resturant MS
                 </a>
               </div>
             </div>
@@ -198,6 +198,33 @@ const Sidebar = () => {
                   </ul>
                 </li>
                 
+
+                {/* for staff */}
+                <li className="nav-item">
+                  <a href="#" className="nav-link">
+                    <i className="nav-icon fas fa-book" />
+                    <p>
+                      Staff
+                      <i className="fas fa-angle-left right" />
+                    </p>
+                  </a>
+                  <ul className="nav nav-treeview">
+                    <li className="nav-item">
+                      <Link to="/add-room" className="nav-link">
+                        <i className="far fa-circle nav-icon" />
+                        <p>Staff List</p>
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link to="/manege-room" className="nav-link">
+                        <i className="far fa-circle nav-icon" />
+                        <p>Manege Staff</p>
+                      </Link>
+                    </li>
+                  
+                  </ul>
+                </li>
                   
 
                 {/* <li className="nav-header">MISCELLANEOUS</li> */}
